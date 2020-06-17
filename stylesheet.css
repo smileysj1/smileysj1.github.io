@@ -40,16 +40,43 @@ body {
 }
 
 .contentbox {
-    display: flexbox;
     border: 2px solid #404040;
-    padding: 5px;
+    padding: 0px 5px;
     margin: 5px;
     width: fit-content;
+    height: fit-content;
 }
 
 .contentbox h1 {
     color: #404040;
+    padding: 5px;
     font-size: large;
+}
+
+.resume h1 {
+    font-size: x-large;
+}
+
+.resume h2 {
+    display: inline;
+    font-size: larger;
+}
+
+.resume h3 {
+    display: inline;
+    font-size: medium;
+    font-style: italic;
+    font-weight: normal;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+section.resume {
+    padding: 5px
+}
+
+ul.resume {
+    list-style: none;
 }
 
 .footer {
@@ -62,4 +89,8 @@ body {
     font-size: medium;
     border: 2px solid #404040;
     padding: 2px;
+}
+
+.footer hr {
+    border: 1px solid #404040;
 }
