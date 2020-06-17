@@ -79,6 +79,10 @@ ul.resume {
     list-style: none;
 }
 
+.workexperience {
+    padding-bottom: 20px;
+}
+
 .footer {
     display: block;
     margin: 5px;
