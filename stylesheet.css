@@ -55,6 +55,8 @@ body {
 
 .resume h1 {
     font-size: x-large;
+    padding: 0px;
+    margin: 0px;
 }
 
 .resume h2 {
@@ -72,7 +74,8 @@ body {
 }
 
 section.resume {
-    padding: 5px
+    padding: 5px;
+    padding-bottom: 20px;
 }
 
 ul.resume {
