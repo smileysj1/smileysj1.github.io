@@ -2,6 +2,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
     background-color: #f5f5f5;
+    color: #404040;
 }
 
 .header {
@@ -38,20 +39,27 @@ body {
     background-color: #f5f5f5;
 }
 
-h5 {
-    font-size: large;
-    color: #202020;
+.contentbox {
+    display: flexbox;
     border: 2px solid #404040;
-    width: max-content;
+    padding: 5px;
     margin: 5px;
-    padding: 2px;
+    width: fit-content;
 }
 
-h6 {
-    font-size: medium;
-    color: #202020;
-    border: 2px solid #404040;
-    width: max-content;
+.contentbox h1 {
+    color: #404040;
+    font-size: large;
+}
+
+.footer {
+    display: block;
     margin: 5px;
+}
+
+.footer h1 {
+    width: fit-content;
+    font-size: medium;
+    border: 2px solid #404040;
     padding: 2px;
 }
